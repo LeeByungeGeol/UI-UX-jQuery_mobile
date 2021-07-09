@@ -1,0 +1,47 @@
+#mainBanner{
+    width:600px;    
+    margin:50px auto;
+    position: relative;
+    text-align: center;
+}
+.banner{
+    width:500%;
+}
+.banner>li{
+    float:left;
+    width:20%;
+}
+.banner>li img{
+    width:100%;
+}
+.arrow>li{
+    position: absolute;
+    top:50%;
+}
+.arrow>.rightBtn{
+    right:0;
+}
+.circle{
+    position: absolute;
+    bottom:30px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.circle>li{
+    display: inline-block;
+}
+.circle>li>a{
+    display: block;
+    width:20px;
+    height:20px;
+    background:white;
+}
+.circle>.active>a{
+    background:red;
+}
+
+@media screen and (max-width:640px){
+    #mainBanner{
+        width:100%;
+    }
+}

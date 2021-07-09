@@ -1,0 +1,16 @@
+.myIcon .ui-btn::after{
+    width:30px;
+    height:30px;
+}
+#tea::after{
+    background:url(../images/coffee-19.svg) no-repeat;
+}
+#bread::after{
+    background:url(../images/cook-2.svg) no-repeat;
+}
+#wish::after{
+    background:url(../images/favorite-13.svg) no-repeat;
+}
+#info::after{
+    background:url(../images/cook-3.svg) no-repeat;
+}
